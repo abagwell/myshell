@@ -1,0 +1,15 @@
+To compile this program: gcc -o smallsh smallsh.c.
+
+This source code is my work, but I have used some sources and references (besides the lecture, man pages, and textbook) to get it up and running. I have cited some of these with line comments when feasible but some attribution/acknowledgment is needed.
+
+These sources include:
+
+"Write a Shell in C" - Stephen Brennan, brennan.io/2015/01/16/write-a-shell-in-c, (very basic but I did get the idea of do while shell loop from this)
+
+"Lab 06: Fork-Exec-Wait, Repeat" - US Naval Academy, course material for a lab (in a Systems programming) pertaining to forking and execing. I found it rather helpful.
+
+"Writing Your Own Shell" - Cornell University Computer Science, contained information and pseudocode about writing a shell that forks and exec's
+
+Numerous stackoverflow posts. The most substantial of these being:
+	- "Using waitpid to run process in background?", stackoverflow/com/questions/14548367/using-	waitpid-to-run-process-in-background
+	- "Why is SIGINT not propagated to child process when sent to its parent process?" unix.stackexchange.com/questions/149741/why-is-sigint-not-propagated-to-child-process-when-sent-to-its-parent-process
